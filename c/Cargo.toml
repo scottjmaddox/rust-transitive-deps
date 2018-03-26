@@ -1,0 +1,9 @@
+[package]
+name = "c"
+version = "0.1.0"
+authors = ["Scott J Maddox"]
+publish = false
+
+[dependencies]
+a = { path = "../a" }
+b = { path = "../b" }

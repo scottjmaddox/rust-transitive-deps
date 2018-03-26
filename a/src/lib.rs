@@ -1,3 +1,10 @@
+#[macro_use]
+extern crate log;
+
+pub fn log_a() {
+    debug!("a");
+}
+
 #[cfg(test)]
 mod tests {
     #[test]

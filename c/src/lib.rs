@@ -1,9 +1,8 @@
-#[macro_use]
-extern crate log;
+extern crate a;
+extern crate b;
 
-pub fn log_b() {
-    debug!("b");
-}
+pub use a::log_a;
+pub use b::log_b;
 
 #[cfg(test)]
 mod tests {
